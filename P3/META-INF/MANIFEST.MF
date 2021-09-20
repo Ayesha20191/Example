@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: P3
+Bundle-SymbolicName: P3;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: p3.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.apache.felix.scr,
+ org.eclipse.equinox.event
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: P3
+Import-Package: javax.inject
+Bundle-ActivationPolicy: lazy
